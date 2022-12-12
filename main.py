@@ -33,6 +33,8 @@ def info() -> typing.Dict:
 def start(game_state: typing.Dict):
     print("GAME START")
 
+def hello_world():
+    print ("hello world!")
 
 # end is called when your Battlesnake finishes a game
 def end(game_state: typing.Dict):

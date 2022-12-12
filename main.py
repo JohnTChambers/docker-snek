@@ -34,7 +34,7 @@ def start(game_state: typing.Dict):
     print("GAME START")
 
 def hello_world():
-    print ("hello world!")
+    print ("hello world! What a beautiful day!")
 
 # end is called when your Battlesnake finishes a game
 def end(game_state: typing.Dict):

@@ -13,6 +13,7 @@
 import random
 import typing
 
+from sandbox.working_code_staging.sandbox import main as _main
 
 # info is called when you create your Battlesnake on play.battlesnake.com
 # and controls your Battlesnake's appearance
@@ -45,6 +46,9 @@ def end(game_state: typing.Dict):
 # Valid moves are "up", "down", "left", or "right"
 # See https://docs.battlesnake.com/api/example-move for available data
 def move(game_state: typing.Dict) -> typing.Dict:
+
+    # do the thing
+    _main()
 
     is_move_safe = {"up": True, "down": True, "left": True, "right": True}
 

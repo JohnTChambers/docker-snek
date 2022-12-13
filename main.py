@@ -11,6 +11,7 @@
 # For more info see docs.battlesnake.com
 
 import random
+import sys
 import typing
 
 from sandbox.working_code_staging.sandbox import main as _main
@@ -101,5 +102,8 @@ def move(game_state: typing.Dict) -> typing.Dict:
 # Start server when `python main.py` is run
 if __name__ == "__main__":
     from server import run_server
+
+    import sys
+    print ('\n\n\nhhheeeelllllooooooo world!!!\n\n\n', file=sys.stdout)
 
     run_server({"info": info, "start": start, "move": move, "end": end})
